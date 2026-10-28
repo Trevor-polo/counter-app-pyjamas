@@ -14,4 +14,4 @@ latest = db.row("SELECT * FROM testingTable ORDER BY id DESC LIMIT 1")
 if latest:
     print("Latest row of testingTable:", latest)
 else:
-    print("testingTable is empty - no rows to show.")
+    print("testingTable v2 is empty - no rows to show.")
